@@ -202,7 +202,7 @@ SELECT *
 FROM layoffs_staging2
 WHERE company =  'Airbnb' OR company = 'Juul' OR company = 'Carvana' OR company = "Bally's Interactive";
 
--- We're joining the table on itself using JOIN to show on the first table those industry thar are blank and null, and on the other are the one's which are not blank.
+-- We're joining the table on itself using SELF JOIN to show on the first table those industry that are blank and null, and on the other are the one's which are not blank.
 
 SELECT *       
 FROM layoffs_staging2 table1
